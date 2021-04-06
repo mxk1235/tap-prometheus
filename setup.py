@@ -14,9 +14,9 @@ setup(name='tap-prometheus',
           'promalyze==0.0.2',
           'pytz'
       ],
-      dependency_links=[
-          'git+https://github.com/miroapp/promalyze.git#egg=promalyze-0.0.2',
-      ],
+      # dependency_links=[
+      #     'git+https://github.com/miroapp/promalyze.git#egg=promalyze-0.0.2',
+      # ],
       entry_points='''
           [console_scripts]
           tap-prometheus=tap_prometheus:main
