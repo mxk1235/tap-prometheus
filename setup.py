@@ -12,7 +12,8 @@ setup(name='tap-prometheus',
       install_requires=[
           'singer-python==5.2.3',
           'promalyze',
-          'pytz'
+          'pytz',
+          'requests'
       ],
       dependency_links=[
           'git+https://github.com/miroapp/promalyze.git',
