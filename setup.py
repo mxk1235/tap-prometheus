@@ -11,7 +11,7 @@ setup(name='tap-prometheus',
       py_modules=['tap_prometheus'],
       install_requires=[
           'singer-python==5.2.3',
-         #  'promalyze==0.0.2',
+          'promalyze==0.0.2',
           'pytz'
       ],
       # dependency_links=[
